@@ -26,6 +26,12 @@ namespace DesafioPOO.Models
             Console.WriteLine("Ligando...");
         }
 
+        public void MensagemSistema()
+        {
+            Console.WriteLine("Bem vindo");
+            Console.WriteLine($"Sincronizando contados do numero {Numero}");
+        }
+
         public void ReceberLigacao()
         {
             Console.WriteLine("Recebendo ligação...");
