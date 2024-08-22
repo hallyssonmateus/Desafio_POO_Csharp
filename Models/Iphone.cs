@@ -3,7 +3,7 @@ namespace DesafioPOO.Models
     // TODO: Herdar da classe "Smartphone"
     public class Iphone : Smartphone
     {   //Construtor
-    public Iphone(string numero) : base(numero)
+    public Iphone(string numero, string modelo, string imei, int memoria) : base(numero,modelo,imei,memoria)
         {
         }
         // TODO: Sobrescrever o método "InstalarAplicativo"

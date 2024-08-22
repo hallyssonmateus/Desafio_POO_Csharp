@@ -4,7 +4,7 @@ namespace DesafioPOO.Models
     public class Nokia : Smartphone
     {
         //Construtor
-        public  Nokia(string numero) : base(numero)
+        public  Nokia(string numero, string modelo, string imei, int memoria) : base(numero, modelo, imei, memoria)
         {
         }
         // TODO: Sobrescrever o método "InstalarAplicativo"
